@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=macOS Sonoma 
+Description=A Plymouth of MacOS Sonoma
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/macOS
+ScriptFile=/usr/share/plymouth/themes/macOS/macOS.script

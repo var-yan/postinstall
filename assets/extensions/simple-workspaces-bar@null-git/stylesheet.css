@@ -1,0 +1,28 @@
+.desktop-label-nonempty-active {
+  margin: 1px 8px 1px 0;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+.desktop-label-nonempty-inactive {
+  margin: 1px 8px 1px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+.desktop-label-empty-active {
+  margin: 1px 8px 1px 0;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+.desktop-label-empty-inactive {
+  margin: 1px 8px 1px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+

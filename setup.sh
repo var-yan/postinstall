@@ -34,7 +34,7 @@ cd assets/shell
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
 
-WhiteSur-gtk-theme/install.sh -o normal -c Dark -t red -m -l -r
+WhiteSur-gtk-theme/install.sh -o normal -c Dark -t red -m -l --round
 sudo WhiteSur-gtk-theme/tweaks.sh -g -c Dark -t grey
 WhiteSur-gtk-theme/tweaks.sh -f monterey
 WhiteSur-gtk-theme/tweaks.sh -d
@@ -44,7 +44,7 @@ sudo flatpak override --filesystem=~/.themes
 sudo flatpak override --filesystem=~/.local/share/icons
 sudo flatpak override --filesystem=xdg-config/gtk-4.0
 
-sudo cp -r oreo /usr/local/icons/
+sudo cp -r oreo /usr/share/icons/
 cp -r fonts ~/.local/share/
 cp wallpaper.jpg ~/.local/share/backgrounds/
 cd ~/postinstall/assets/
@@ -56,9 +56,9 @@ sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 
 #APPLY CHANGES
-dconf load / < ../dconf-settings.ini
+#dconf load / < ../dconf-settings.ini
 
 #REBOOT SYSTEM
-sudo reboot
+#sudo reboot
 
 
